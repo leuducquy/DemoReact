@@ -11,10 +11,12 @@ import Home from './components/home/HomePage';
 import About from './components/about';
 import CoursePage from './components/course/CoursesPage';
 import App from './components/App';
-
-import configureStore from './store/configureStore'
+import {loadCourses} from './actions/courseAction';
+import configureStore from './store/configureStore';
 
 const store = configureStore();
+store.dispatch(loadCourses());
+
 render(
   (
   <Provider store = {store} >
