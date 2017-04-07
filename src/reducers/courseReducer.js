@@ -6,9 +6,9 @@ export default function courseReducer(state = [] , action){
     switch (action.type) {
         case types.LOAD_COURSE_SUCCESS :
       
-        console.log('reducer');
+        console.log('reducersucess');
         return action.courses;
          default :
          return state;
-    }
+    };
 }

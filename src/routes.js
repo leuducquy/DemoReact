@@ -26,7 +26,7 @@ const BasicExample = () => (
      
     </div>
   </Router>
-)
+);
 
 
 

@@ -31,4 +31,4 @@ render(
   
 )
 
-, document.getElementById('app'))
+, document.getElementById('app'));
